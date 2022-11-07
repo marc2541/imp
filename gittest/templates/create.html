@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Ajouter un nouveau livre {% endblock %}</h1>
+    <form method="post" class="wrap justify-content-center">
+         
+            <div class="col">
+                <label for="title" class="form-label">Titre</label>
+                <input type="text" name="title" id="title" class="form-control" />
+            </div>
+
+            <div class="col">
+                <label for="author" class="form-label">Auteur</label>
+                <input type="text" name="author" id="author" class="form-control"/>
+            </div >
+
+            <div class="col">
+                <label for="pages_num" class="form-label" >Nombre de pages</label>
+                <input type="number" name="pages_num" id="pages_num" class="form-control"/>
+            </div>
+            
+            <div class="col">
+                <label for="review" class="form-label">Commentaire</label>
+                <textarea name="review" id="review" class="form-control"></textarea>
+            </div>
+        
+        
+        <button type="submit" class="btn btn-primary submit" id="boutonFormulair">Envoyé</button>
+        
+    </form>
+{% endblock %}

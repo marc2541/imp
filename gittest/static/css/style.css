@@ -1,0 +1,29 @@
+footer {
+    
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+header {
+    margin-bottom: 25px;
+}
+
+.auto {
+    margin: auto;
+}
+
+a:hover {
+    background-color: rgb(42, 42, 42);
+	color: #fff;
+}
+
+a.active {
+	background-color: rgb(42, 42, 42);
+	color: #fff;
+}
+
+#boutonFormulair {
+    margin-top: 15px;
+}
